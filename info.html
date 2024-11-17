@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High-Risk Investments</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="left">
+        <a href="menu.html">
+          <img
+            src="images/menupoga.png"
+            alt="Menu"
+            class="icon"
+            id="menu-icon"
+          />
+        </a>
+      </div>
+      <div class="center">
+        <a href="crown.html">
+          <img
+            src="images/Crown.png"
+            alt="Crown"
+            class="icon"
+            id="crown-icon"
+          />
+        </a>
+      </div>
+      <div class="right">
+        <img
+          src="images/search.png"
+          alt="Search"
+          class="icon"
+          id="search-icon"
+          onclick="toggleNotificationDropdown()"
+        />
+        <img
+          src="images/Bell.png"
+          alt="Notifications"
+          class="icon"
+          id="notification-icon"
+          onclick="toggleNotificationDropdown()"
+        />
+        <!-- Notification Dropdown -->
+        <div class="notification-dropdown" id="notification-dropdown">
+          <ul>
+            <li>No new notifications</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Section 1: High-Risk, High Reward -->
+    <div class="investment-section">
+      <h2>High-Risk, High Reward!</h2>
+      <div class="investment-content">
+        <img
+          src="images/investment.jpg"
+          alt="Investment"
+          class="investment-image"
+        />
+        <p class="investment-intro">
+          Hey! 🎉<br />
+          Congrats on making great progress! You've now unlocked your first step
+          in growing your finances!
+        </p>
+        <p class="investment-details">
+          Here we'll talk about the exciting world of high-risk investments! 🚀
+          These investments, like stocks, cryptocurrencies, or start-up funding,
+          can be a powerful way to grow your finances quickly. However, they
+          come with both rewards and risks. Let’s break it down:
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 2: Why Consider High-Risk Investments -->
+    <div class="why-invest-section">
+      <h3>Why Consider High-Risk Investments?</h3>
+      <ul class="investment-benefits">
+        <li>
+          <span class="emoji">💰</span>
+          <strong>Potential for Big Rewards:</strong> These investments can grow
+          your wealth faster than safer options.
+        </li>
+        <li>
+          <span class="emoji">💡</span> <strong>Skill-Building:</strong> You'll
+          learn to analyze markets, trends, and make strategic decisions.
+        </li>
+        <li>
+          <span class="emoji">⚡</span>
+          <strong>Accelerated Wealth Building:</strong> They can help you
+          achieve your financial goals more quickly.
+        </li>
+      </ul>
+      <div class="chart-column">
+        <canvas id="barChart2"></canvas>
+      </div>
+
+
+
+    <div style="height: 100px"></div>
+
+    <div class="footer-nav">
+      <div class="left-icon">
+        <a href = "index.html">
+          <img src="images/Home-icon.png" alt="Home" class="icon" id="home-icon" />
+      </div>
+      <div class="center-icon">
+        <a href="crown.html">
+          <img
+            src="images/Crown.png"
+            alt="Crown"
+            class="icon"
+          />
+        </a>
+      </div>
+      <div class="right-icons">
+        <a href="chat.html">
+          <img src="images/msg.png" alt="Chat" class="icon" id="chat-icon" />
+        </a>
+        <a href="money.html">
+          <img
+            src="images/moneybag.png"
+            alt="Money"
+            class="icon"
+            id="money-icon"
+          />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
